@@ -230,12 +230,9 @@ class CartController extends Controller
                 return redirect()->route('shop.checkout.onepage.index');
             }
         } catch(\Exception $e) {
+            session()->flash('error', trans($e->getMessage()));
 
-            var_dump($e);
-            // session()->flash('error', trans($e->getMessage()));
-
-            // return response()->json($e);
-            // redirect()->back()
+            return redirect()->back();
         }
     }
 

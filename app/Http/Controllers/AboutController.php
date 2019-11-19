@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Factory;
+use DB;
 
 class AboutController extends Controller
 {
@@ -24,6 +26,35 @@ class AboutController extends Controller
         //
 
         return view('contact');
+    }
+
+    public function team()
+    {
+        //
+
+        return view('team');
+    }
+
+    public function product()
+    {
+        //
+
+        return view('product');
+    }
+
+    public function service()
+    {
+        //
+
+        return view('service');
+    }
+
+    public function factory()
+    {
+        //
+        $images = Factory::all();
+    
+        return view('factory')->with('images', $images);
     }
 
     /**

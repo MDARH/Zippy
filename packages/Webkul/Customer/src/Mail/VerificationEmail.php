@@ -10,8 +10,8 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 /**
  * Verification Mail class
  *
- * @author    Zippy Leatherware <info@zippyleatherware.com>
- * @copyright 2019 Zippy Leatherware (http://zippyleatherware.com)
+ * @author    Rahul Shukla <rahulshukla.symfony517@webkul.com>
+ * @copyright 2018 Webkul Software Pvt Ltd (http://www.webkul.com)
  */
 class VerificationEmail extends Mailable
 {

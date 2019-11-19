@@ -1,6 +1,22 @@
 <div class="footer">
     <div class="footer-content">
         <div class="footer-list-container">
+            
+            <div class="list-container">
+                <span class="list-heading">Quick Links</span>
+                <ul class="list-group">
+                    <li>
+                        <a href="{{ url('about') }}">About Us</a>
+                    </li>
+                    <li>
+                        <a href="{{ url('contact') }}">Contact Us</a>
+                    </li>
+                    <li><a href="{{ url('team') }}">Our Team</a></li>
+                    <li><a href="{{ url('product') }}">Our Products</a></li>
+                    <li><a href="{{ url('service') }}">Our Services</a></li>
+                    <li><a href="{{ url('factory') }}">Our Factory</a></li>
+                </ul>
+            </div>
 
             <?php
                 $categories = [];
@@ -25,8 +41,16 @@
                 </div>
             @endif
 
-            {!! DbView::make(core()->getCurrentChannel())->field('footer_content')->render() !!}
-
+            <!--{!! DbView::make(core()->getCurrentChannel())->field('footer_content')->render() !!}-->
+            
+            <div class="list-container">
+                <span class="list-heading">Connect With Us</span>
+                <ul class="list-group">
+                    <li><a href="https://www.facebook.com/ZippyLeatherWare"> <span class="icon icon-facebook"></span>Facebook</a>
+                    </li>
+                </ul>
+            </div>
+            
             <div class="list-container">
                 @if(core()->getConfigData('customer.settings.newsletter.subscription'))
                     <span class="list-heading">{{ __('shop::app.footer.subscribe-newsletter') }}</span>

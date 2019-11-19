@@ -188,11 +188,5 @@ return [
         'route' => 'admin.cart-rule.index',
         'sort' => 1,
         'icon-class' => '',
-    ], [
-        'key' => 'conversation',
-        'name' => 'admin::app.layouts.conversation',
-        'route' => 'conversation.index',
-        'sort' => 1,
-        'icon-class' => 'conversation-icon',
     ]
 ];

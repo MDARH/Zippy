@@ -3,6 +3,8 @@
 /public/storage
 /storage/*.key
 /vendor
+/app.zip
+/routes.zip
 .env
 .env.backup
 .phpunit.result.cache
