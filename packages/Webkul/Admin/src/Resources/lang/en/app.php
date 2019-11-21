@@ -14,7 +14,6 @@ return [
         'logout' => 'Logout',
         'visit-shop' => 'Visit Shop',
         'dashboard' => 'Dashboard',
-        'conversation' => 'Conversation',
         'sales' => 'Sales',
         'orders' => 'Orders',
         'shipments' => 'Shipments',
@@ -30,7 +29,7 @@ return [
         'newsletter-subscriptions' => 'Newsletter Subscriptions',
         'configure' => 'Configure',
         'settings' => 'Settings',
-        'locales' => 'Language',
+        'locales' => 'Locales',
         'currencies' => 'Currencies',
         'exchange-rates' => 'Exchange Rates',
         'inventory-sources' => 'Inventory Sources',
@@ -47,7 +46,6 @@ return [
 
     'acl' => [
         'dashboard' => 'Dashboard',
-        'conversation' => 'Conversation',
         'sales' => 'Sales',
         'orders' => 'Orders',
         'shipments' => 'Shipments',
@@ -63,7 +61,7 @@ return [
         'newsletter-subscriptions' => 'Newsletter Subscriptions',
         'configure' => 'Configure',
         'settings' => 'Settings',
-        'locales' => 'Language',
+        'locales' => 'Locales',
         'currencies' => 'Currencies',
         'exchange-rates' => 'Exchange Rates',
         'inventory-sources' => 'Inventory Sources',
@@ -101,10 +99,6 @@ return [
         'revenue' => 'Revenue :total',
         'stock-threshold' => 'Stock Threshold',
         'qty-left' => ':qty Left',
-    ],
-
-    'conversation' => [
-        'title' => 'Conversation',
     ],
 
     'datagrid' => [
@@ -559,18 +553,18 @@ return [
 
     'settings' => [
         'locales' => [
-            'title' => 'Language',
-            'add-title' => 'Add Language',
-            'edit-title' => 'Edit Language',
-            'add-title' => 'Add Language',
-            'save-btn-title' => 'Save Language',
+            'title' => 'Locales',
+            'add-title' => 'Add Locale',
+            'edit-title' => 'Edit Locale',
+            'add-title' => 'Add Locale',
+            'save-btn-title' => 'Save Locale',
             'general' => 'General',
             'code' => 'Code',
             'name' => 'Name',
-            'create-success' => 'Language created successfully.',
-            'update-success' => 'Language updated successfully.',
-            'delete-success' => 'Language deleted successfully.',
-            'last-delete-error' => 'At least one Language is required.',
+            'create-success' => 'Locale created successfully.',
+            'update-success' => 'Locale updated successfully.',
+            'delete-success' => 'Locale deleted successfully.',
+            'last-delete-error' => 'At least one Locale is required.',
         ],
         'countries' => [
             'title' => 'Countries',
@@ -648,9 +642,9 @@ return [
             'name' => 'Name',
             'description' => 'Description',
             'hostname' => 'Hostname',
-            'currencies-and-Language' => 'Currencies and Language',
-            'locales' => 'Language',
-            'default-locale' => 'Default Language',
+            'currencies-and-locales' => 'Currencies and Locales',
+            'locales' => 'Locales',
+            'default-locale' => 'Default Locale',
             'currencies' => 'Currencies',
             'base-currency' => 'Base Currency',
             'root-category' => 'Root Category',

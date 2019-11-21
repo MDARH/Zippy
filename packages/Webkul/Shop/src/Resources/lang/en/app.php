@@ -19,7 +19,7 @@ return [
 
     'home' => [
         'page-title' => 'Zippy Leatherware - Home',
-        'featured-products' => 'Featured Products',
+        'featured-products' => 'Upcoming Products',
         'new-products' => 'New Products',
         'verify-email' => 'Verify Your Email Account',
         'resend-verify-email' => 'Resend Verification Email'
@@ -49,7 +49,7 @@ return [
     'footer' => [
         'subscribe-newsletter' => 'Subscribe Newsletter',
         'subscribe' => 'Subscribe',
-        'locale' => 'Language',
+        'locale' => 'Locale',
         'currency' => 'Currency',
     ],
 
@@ -66,7 +66,7 @@ return [
 
     'search' => [
         'no-results' => 'No Results Found',
-        'page-title' => 'Zippy - Search',
+        'page-title' => 'Zippy Leatherware - Search',
         'found-results' => 'Search Results Found',
         'found-result' => 'Search Result Found'
     ],

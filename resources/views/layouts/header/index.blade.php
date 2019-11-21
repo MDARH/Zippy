@@ -160,7 +160,7 @@
     </div>
 
     <div class="header-bottom" id="header-bottom">
-        
+        @include('shop::layouts.header.nav-menu.navmenu')
     </div>
 
     <div class="search-responsive mt-10" id="search-responsive">

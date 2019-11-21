@@ -325,12 +325,6 @@
                     <i class="icon dashboard-icon active"></i>
                 </span>
                 <span class="icon-wrapper">
-                    <i class="icon conversation-icon"></i>
-                </span>
-                <span class="icon-wrapper">
-                    <i class="icon conversation-icon active"></i>
-                </span>
-                <span class="icon-wrapper">
                     <i class="icon configuration-icon"></i>
                 </span>
                 <span class="icon-wrapper">

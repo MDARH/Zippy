@@ -416,12 +416,7 @@ return [
         'name' => 'admin::app.acl.delete',
         'route' => 'admin.cart-rule.delete',
         'sort' => 3
-    ], [
-        'key' => 'conversation',
-        'name' => 'admin::app.acl.conversation',
-        'route' => 'conversation.index',
-        'sort' => 7
-    ]
+    ],
 ];
 
 ?>

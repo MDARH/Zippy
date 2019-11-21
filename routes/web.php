@@ -13,6 +13,7 @@
 
 Route::get('about', 'AboutController@index');
 Route::get('contact', 'AboutController@contact');
-
-
-Route::resource('admin/conversation', 'ConversationController');
+Route::get('team', 'AboutController@team');
+Route::get('product', 'AboutController@product');
+Route::get('service', 'AboutController@service');
+Route::get('factory', 'AboutController@factory');
