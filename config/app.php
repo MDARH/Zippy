@@ -232,7 +232,6 @@ return [
         Webkul\Ui\Providers\UiServiceProvider::class,
         Webkul\Category\Providers\CategoryServiceProvider::class,
         Webkul\Attribute\Providers\AttributeServiceProvider::class,
-        Webkul\Attribute\Providers\ModuleServiceProvider::class,
         Webkul\Core\Providers\CoreServiceProvider::class,
         Webkul\Shop\Providers\ShopServiceProvider::class,
         Webkul\Customer\Providers\CustomerServiceProvider::class,
